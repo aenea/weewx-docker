@@ -1,4 +1,4 @@
-ROM felddy/weewx
+FROM felddy/weewx
 RUN pip install --upgrade pip
 RUN pip install PyMySQL
 RUN pip cache purge
